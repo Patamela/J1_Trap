@@ -1,0 +1,25 @@
+# Carpetas que Unreal Engine regenera solo: no se versionan
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Resources/
+/Saved/
+
+# Las mismas carpetas dentro de los plugins del proyecto
+/Plugins/**/Binaries/
+/Plugins/**/Intermediate/
+
+# Ficheros generados por el IDE (para cuando trabajéis en C++ con VS Code o Visual Studio)
+*.sln
+*.code-workspace
+.vs/
+.vscode/
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.suo
+
+# Ficheros del sistema operativo
+Thumbs.db
+Desktop.ini
